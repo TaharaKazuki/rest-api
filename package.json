@@ -5,6 +5,9 @@
   "repository": "git@github.com:TaharaKazuki/rest-api.git",
   "author": "田原 一樹 <ssp0727.lnc@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --config nodemon.json src/app.ts"
+  },
   "dependencies": {
     "bcrypt": "^5.0.1",
     "config": "^3.3.6",
